@@ -1,5 +1,7 @@
 package com.example.allin_android;
 
+import static java.util.Locale.getDefault;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -27,7 +29,8 @@ public class clock extends AppCompatActivity {
             @Override
             public void run() {
                 Calendar calendar = Calendar.getInstance();
-                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm:ss", Locale.getDefault());
+                Locale locale = getDefault();
+                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm:ss", locale);
                 String currentTime = simpleDateFormat.format(calendar.getTime());
                 cloak_text.setText(currentTime);
                 handler.postDelayed(this, 1000);

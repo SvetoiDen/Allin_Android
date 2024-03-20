@@ -2,6 +2,7 @@
     <string name="app_name">Allin_Android</string>
     <string name="Name">Это приложение созданно для проекта</string>
     <string name="But1">Часы</string>
+    <string name="clock_glav">CLOAK</string>
     <string name="But2">Дневник</string>
     <string name="But3">Список приложений</string>
     <string name="clock_text"></string>
