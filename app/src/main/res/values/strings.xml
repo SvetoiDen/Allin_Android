@@ -4,4 +4,5 @@
     <string name="But1">Часы</string>
     <string name="But2">Дневник</string>
     <string name="But3">Список приложений</string>
+    <string name="clock_text"></string>
 </resources>
