@@ -24,4 +24,14 @@ public class MainActivity extends AppCompatActivity {
         Intent swit = new Intent(MainActivity.this, clock.class);
         MainActivity.this.startActivity(swit);
     }
+
+    public void dnevnik_activ(View v) {
+        Intent swit = new Intent(MainActivity.this, dnevnik.class);
+        MainActivity.this.startActivity(swit);
+    }
+
+    public void app_list_activ(View v) {
+        Intent swit = new Intent(MainActivity.this, app_list.class);
+        MainActivity.this.startActivity(swit);
+    }
 }

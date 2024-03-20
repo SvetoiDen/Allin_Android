@@ -25,6 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
         android:layout_marginTop="368dp"
+        android:onClick="dnevnik_activ"
         android:text="@string/But2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -36,6 +37,7 @@
         android:layout_height="89dp"
         android:layout_marginStart="260dp"
         android:layout_marginTop="344dp"
+        android:onClick="app_list_activ"
         android:text="@string/But3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
