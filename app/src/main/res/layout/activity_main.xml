@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
         android:layout_marginTop="268dp"
-        android:text="Button"
+        android:onClick="clock_activ"
+        android:text="@string/But1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,31 +23,20 @@
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="372dp"
-        android:text="Button"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="368dp"
+        android:text="@string/But2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button3"
         style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="107dp"
+        android:layout_height="89dp"
         android:layout_marginStart="260dp"
-        android:layout_marginTop="372dp"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button4"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="456dp"
-        android:text="Button"
+        android:layout_marginTop="344dp"
+        android:text="@string/But3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
